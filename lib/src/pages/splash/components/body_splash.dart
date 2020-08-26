@@ -1,6 +1,8 @@
+import 'package:autocinefsa/src/pages/Home/home_page.dart';
+import 'package:autocinefsa/src/pages/splash/components/splash_contenido.dart';
+import 'package:autocinefsa/src/utils/rutas.dart';
 import 'package:flutter/material.dart';
 
-import 'package:autocinefsa/src/pages/splash/splash/components/splash_contenido.dart';
 import 'package:autocinefsa/src/utils/constantes.dart';
 import 'package:autocinefsa/src/utils/size_configuracion.dart';
 import 'package:autocinefsa/src/pages/components/boton_default.dart';
@@ -66,7 +68,9 @@ class _BodyStateSplash extends State<BodySplash> {
                     Spacer(flex: 3),
                     DefaultButton(
                       text: "Continuar",
-                      press: () {},
+                      press: () {
+                        Navigator.pushNamed(context, HomePage.routeName);
+                      },
                     ),
                     Spacer(),
                   ],
