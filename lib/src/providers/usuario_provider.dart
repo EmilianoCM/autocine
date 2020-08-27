@@ -50,7 +50,7 @@ class UsuarioProvider {
     if (decodeResp.containsKey('idToken')) {
       _prefs.token = decodeResp['idToken'];
       return {'ok': true, 'token': decodeResp['idToken']};
-      //TODO> SAlvar el token en el estoregae
+      //TODO> So
     } else {
       return {'ok': false, 'mensaje': decodeResp['error']['message']};
     }

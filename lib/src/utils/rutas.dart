@@ -6,5 +6,5 @@ import 'package:autocinefsa/src/pages/splash/splash_page.dart';
 final Map<String, WidgetBuilder> rutas = {
   SplashPage.routeName: (context) => SplashPage(),
   HomePage.routeName: (context) => HomePage(),
-  DrawerMenu.routeName: (context) => DrawerMenu()
+  DrawerPage.routeName: (context) => DrawerPage()
 };
