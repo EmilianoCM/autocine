@@ -1,4 +1,5 @@
 import 'package:autocinefsa/src/pages/Home/home_page.dart';
+import 'package:autocinefsa/src/pages/Login/login_page.dart';
 import 'package:autocinefsa/src/pages/splash/components/splash_contenido.dart';
 import 'package:autocinefsa/src/utils/rutas.dart';
 import 'package:flutter/material.dart';
@@ -69,7 +70,7 @@ class _BodyStateSplash extends State<BodySplash> {
                     DefaultButton(
                       text: "Continuar",
                       press: () {
-                        Navigator.pushNamed(context, HomePage.routeName);
+                        Navigator.pushNamed(context, LoginPage.routeName);
                       },
                     ),
                     Spacer(),

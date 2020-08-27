@@ -1,4 +1,6 @@
 import 'package:autocinefsa/src/bloc/provider.dart';
+
+import 'package:autocinefsa/src/pages/Home/home_page.dart';
 import 'package:autocinefsa/src/providers/usuario_provider.dart';
 import 'package:autocinefsa/src/utils/utils.dart';
 import 'package:flutter/material.dart';
@@ -137,7 +139,7 @@ class BodyLogin extends StatelessWidget {
     Map info = await usuarioProvider.login(bloc.email, bloc.password);
 
     if (info['ok']) {
-      Navigator.pushReplacementNamed(context, 'home');
+      Navigator.pushReplacementNamed(context, HomePage.routeName);
     } else {
       mostrarAlerta(context, info['mensaje']);
     }
