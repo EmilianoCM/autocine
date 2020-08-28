@@ -1,5 +1,4 @@
 import 'package:autocinefsa/src/bloc/provider.dart';
-
 import 'package:autocinefsa/src/pages/Home/home_page.dart';
 import 'package:autocinefsa/src/providers/usuario_provider.dart';
 import 'package:autocinefsa/src/utils/utils.dart';
