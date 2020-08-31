@@ -31,7 +31,7 @@ class BodyDrawer extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'El negrito Hermoso',
+                  'Autocine Fsa',
                   style: TextStyle(fontSize: 22, color: Colors.white),
                 ),
                 Text(
@@ -44,7 +44,57 @@ class BodyDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.person),
             title: Text(
-              'Perfil jei',
+              'Perfil',
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            ),
+            onTap: null,
+          ),
+          ListTile(
+            leading: Icon(Icons.attach_money),
+            title: Text(
+              'Comprar tickets',
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            ),
+            onTap: null,
+          ),
+          ListTile(
+            leading: Icon(Icons.movie_filter),
+            title: Text(
+              'Cartelera',
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            ),
+            onTap: null,
+          ),
+          ListTile(
+            leading: Icon(Icons.movie),
+            title: Text(
+              'OnDemand',
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            ),
+            onTap: null,
+          ),
+          ListTile(
+            leading: Icon(Icons.fastfood),
+            title: Text(
+              'Comida',
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            ),
+            onTap: null,
+          ),
+          ListTile(
+            leading: Icon(Icons.contacts),
+            title: Text(
+              'Contacto',
               style: TextStyle(
                 fontSize: 18,
               ),
