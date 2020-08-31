@@ -1,3 +1,4 @@
+import 'package:autocinefsa/src/bloc/provider.dart';
 import 'package:flutter/material.dart';
 
 class BodyDrawer extends StatelessWidget {
@@ -5,6 +6,7 @@ class BodyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final bloc = Provider.of(context);
     return Drawer(
       child: Column(
         children: [
@@ -33,7 +35,7 @@ class BodyDrawer extends StatelessWidget {
                   style: TextStyle(fontSize: 22, color: Colors.white),
                 ),
                 Text(
-                  'elnegritopijudo@corneta.com',
+                  '${bloc.email}',
                   style: TextStyle(color: Colors.white),
                 ),
               ],
