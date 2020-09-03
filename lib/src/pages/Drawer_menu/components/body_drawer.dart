@@ -1,9 +1,10 @@
 import 'package:autocinefsa/src/bloc/provider.dart';
+import 'package:autocinefsa/src/pages/Cartelera/cartelera_page.dart';
 import 'package:autocinefsa/src/pages/Drawer_menu/components/cartelera_drawer.dart';
 import 'package:flutter/material.dart';
 
 class BodyDrawer extends StatelessWidget {
-  const BodyDrawer({Key key}) : super(key: key);
+  final String cartelera = CarteleraPage.routeName;
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +71,7 @@ class BodyDrawer extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            onTap: null,
+            onTap: () => Navigator.pushNamed(context, CarteleraPage.routeName),
           ),
           ListTile(
             leading: Icon(Icons.movie),

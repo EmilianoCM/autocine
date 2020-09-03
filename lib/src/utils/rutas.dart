@@ -1,3 +1,4 @@
+import 'package:autocinefsa/src/pages/Cartelera/cartelera_page.dart';
 import 'package:autocinefsa/src/pages/Drawer_menu/components/cartelera_drawer.dart';
 import 'package:autocinefsa/src/pages/Login/login_page.dart';
 import 'package:flutter/widgets.dart';
@@ -18,4 +19,5 @@ final Map<String, WidgetBuilder> rutas = {
   DrawerPage.routeName: (context) => DrawerPage(),
   LoginPage.routeName: (context) => LoginPage(),
   PeliculaDetalle.routeName: (context) => PeliculaDetalle(),
+  CarteleraPage.routeName: (context) => CarteleraPage()
 };
