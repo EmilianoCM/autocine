@@ -1,7 +1,6 @@
-import 'package:autocinefsa/src/pages/Home/home_page.dart';
 import 'package:autocinefsa/src/pages/Login/login_page.dart';
 import 'package:autocinefsa/src/pages/splash/components/splash_contenido.dart';
-import 'package:autocinefsa/src/utils/rutas.dart';
+
 import 'package:flutter/material.dart';
 
 import 'package:autocinefsa/src/utils/constantes.dart';

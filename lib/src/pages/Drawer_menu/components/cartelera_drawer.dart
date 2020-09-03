@@ -5,6 +5,7 @@ import 'package:autocinefsa/src/models/pelicula_model.dart';
 import 'package:autocinefsa/src/providers/peliculas_provider.dart';
 
 class PeliculaDetalle extends StatelessWidget {
+  static String routeName = "/cartelera";
   @override
   Widget build(BuildContext context) {
     final Pelicula pelicula = ModalRoute.of(context).settings.arguments;

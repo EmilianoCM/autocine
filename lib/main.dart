@@ -1,4 +1,5 @@
 import 'package:autocinefsa/src/bloc/provider.dart';
+import 'package:autocinefsa/src/pages/Drawer_menu/components/cartelera_drawer.dart';
 import 'package:autocinefsa/src/pages/splash/splash_page.dart';
 import 'package:autocinefsa/src/preferencias/preferencias_usuario.dart';
 import 'package:autocinefsa/src/utils/rutas.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Material App',
-        initialRoute: SplashPage.routeName,
+        initialRoute: PeliculaDetalle.routeName,
         routes: rutas,
       ),
     );

@@ -1,4 +1,5 @@
 import 'package:autocinefsa/src/bloc/provider.dart';
+import 'package:autocinefsa/src/pages/Drawer_menu/components/cartelera_drawer.dart';
 import 'package:flutter/material.dart';
 
 class BodyDrawer extends StatelessWidget {
